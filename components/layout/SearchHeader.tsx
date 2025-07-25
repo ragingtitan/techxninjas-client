@@ -314,7 +314,7 @@ const SearchHeader: React.FC = () => {
                       target.style.display = 'none';
                       const parent = target.parentElement;
                       if (parent) {
-                        parent.innerHTML = '<span class="text-white font-bold text-lg">TX</span>';
+                        parent.innerHTML = '<img src="../../techxninjas_logo.png"/>';
                       }
                     }}
                   />
@@ -329,7 +329,7 @@ const SearchHeader: React.FC = () => {
                       target.style.display = 'none';
                       const parent = target.parentElement;
                       if (parent) {
-                        parent.innerHTML = `<span class="text-xl font-bold text-brand-primary">${BRAND_NAME}</span>`;
+                        parent.innerHTML = `<img src="../../TechXNinjas-removebg-preview.png" className="h-10"/>`;
                       }
                     }}
                   />
